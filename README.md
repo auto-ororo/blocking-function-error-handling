@@ -1,7 +1,5 @@
 # blocking-function-error-handling
 
-Follow these steps to set up the project.
-
 This is a sample application that reproduces the issue reported at https://github.com/firebase/firebase-ios-sdk/issues/14482.
 
 ## Prerequisites
@@ -23,6 +21,7 @@ This is a sample application that reproduces the issue reported at https://githu
 
    ```bash
    py -3.10 -m venv venv
+   source venv/bin/activate
    ```
 
 3. install dependencies.
