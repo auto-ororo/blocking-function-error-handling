@@ -6,9 +6,9 @@ This is a sample application that reproduces the issue reported at https://githu
 
 ## Prerequisites
 
-- Node.js
+- Node.js v20.16.0 or later
 - Python 3.10
-- Firebase CLI
+- Firebase CLI 13.32.0 or later
 - Xcode 16.0 or later
 
 ## How to setup
