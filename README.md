@@ -14,7 +14,7 @@ This is a sample application that reproduces the issue reported at https://githu
 1. Navigate to the cloud functions directory.
 
    ```bash
-   cd blocking-function-error-handling/functions
+   cd blocking_function_error_handling_firebase/functions
    ```
 
 2. Create a virtual Python environment and activate it.
