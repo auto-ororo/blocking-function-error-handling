@@ -20,7 +20,7 @@ This is a sample application that reproduces the issue reported at https://githu
 2. Create a virtual Python environment and activate it.
 
    ```bash
-   py -3.10 -m venv venv
+   python3.10 -m venv venv
    source venv/bin/activate
    ```
 
