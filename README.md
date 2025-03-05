@@ -38,7 +38,7 @@ This is a sample application that reproduces the issue reported at https://githu
 
 5. Open `BlockingFunctionErrorHandlingSampleApp/BlockingFunctionErrorHandlingSampleApp.xcodeproj` in Xcode.
 
-6. Run the `BlockingFunctionErrorHandlingSampleApp` target on a **simulator**.
+6. Run the `BlockingFunctionErrorHandlingSampleApp` target on a **iOS simulator**.
 
 ## How to reproduce
 
