@@ -9,7 +9,6 @@ initialize_app()
 
 @identity_fn.before_user_signed_in()
 def test_before_user_signed_in(event: identity_fn.AuthBlockingEvent) -> identity_fn.BeforeSignInResponse | None:
-    # throw an HttpsError
     https_error = https_fn.HttpsError(
         code=https_fn.FunctionsErrorCode.UNAUTHENTICATED,
         message="authentication failed",
