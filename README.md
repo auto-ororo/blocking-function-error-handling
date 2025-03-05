@@ -9,22 +9,22 @@ This is a sample application that reproduces the issue reported at https://githu
 - Firebase CLI 13.32.0 or later
 - Xcode 16.0 or later
 
-## How to setup
+## How to set up
 
-1. Navigate to cloud functions directory.
+1. Navigate to the cloud functions directory.
 
    ```bash
    cd blocking-function-error-handling/functions
    ```
 
-2. Create virtual python environment and activate it.
+2. Create a virtual Python environment and activate it.
 
    ```bash
    py -3.10 -m venv venv
    source venv/bin/activate
    ```
 
-3. install dependencies.
+3. Install dependencies.
 
    ```bash
    pip install -r requirements.txt
@@ -36,13 +36,13 @@ This is a sample application that reproduces the issue reported at https://githu
    firebase emulators:start
    ```
 
-5. Open `BlockingFunctionErrorHandlingSampleApp/BlockingFunctionErrorHandlingSampleApp.xcodeproj` in Xcode
+5. Open `BlockingFunctionErrorHandlingSampleApp/BlockingFunctionErrorHandlingSampleApp.xcodeproj` in Xcode.
 
-6. Run the `BlockingFunctionErrorHandlingSampleApp` Target on a **simulator**.
+6. Run the `BlockingFunctionErrorHandlingSampleApp` target on a **simulator**.
 
 ## How to reproduce
 
-1. In the app, enter email and password and tap on the `SignUp` button.
+1. In the app, enter an email and password, then tap on the `SignUp` button.
    - You need to enter an unregistered email.
-2. The app will receive an error(HttpsError) raised by the blocking function.
-   - You catch an error do not contain HttpsError.code or HttpsError.details
+2. The app will receive an error (HttpsError) raised by the blocking function.
+   - The caught error does not contain `HttpsError.code` or `HttpsError.details`.
